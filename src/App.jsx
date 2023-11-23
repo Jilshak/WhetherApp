@@ -19,7 +19,7 @@ function App() {
   }
 
   const api = {
-    key: '095af7b62ee6725f2753d671c9713500',
+    key: import.meta.env.VITE_API_KEY,
     baseUrl: 'https://api.openweathermap.org/data/2.5/'
   }
 
