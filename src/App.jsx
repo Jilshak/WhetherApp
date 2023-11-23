@@ -39,7 +39,7 @@ function App() {
             <div className="z-50 absolute top-32 ">
               <p className="font-extrabold text-2xl text-white mx-5">{data?.name ? data?.name : "London"}</p>
               <p className="font-extrabold text-5xl text-white mx-5">{data?.main?.temp ? data?.main?.temp : '60'}°F</p>
-              <p className="font-extrabold text-xl text-white mx-5">{data?.weather[0]?.main ? data?.weather[0]?.main : 'Clouds'}</p>
+              <p className="font-extrabold text-xl text-white mx-5">{data?.weather[0]?.description ? data?.weather[0]?.description : 'Clouds'}</p>
             </div>
             <div>
               <div className="join absolute z-50 bottom-7 right-2  opacity-30 bg-[#e4e3e3]">
